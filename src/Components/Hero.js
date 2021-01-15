@@ -18,7 +18,7 @@ const Hero = () => (
           <div />
         </div>
         <div className="col-12 hero_icons">
-          <div className="row flex-sm-column flex-md-row flex-lg-row">
+          <div className="row flex-md-row flex-lg-row">
             <div className="col-2 col-lg-3" />
             <div className="icon_wrapper col-8 col-lg-6 d-flex flex-column flex-md-row justify-content-lg-center">
               <div className="d-flex flex-lg-column flex-row mr-lg-4 consulting_wrapper">

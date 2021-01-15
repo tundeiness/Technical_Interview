@@ -5,7 +5,7 @@ import Advert from './Components/Advert';
 import Testimonial from './Components/Testimonial';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-import './styles.css';
+import './App.css';
 
 export default function App() {
   return (
