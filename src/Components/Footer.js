@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => (
   <div className="container-fluid footer_wrapper">
     <div className="container" id="footer">
-      <div className="row flex-column align-items-lg-center flex-md-row mt-lg-4">
+      <div className="row flex-column align-items-lg-center flex-md-row">
         <div className="col-12 col-md-6 copyright">
           {' '}
           <p>&copy; 2021 Company. All Rights Reserved</p>

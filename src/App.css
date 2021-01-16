@@ -15,9 +15,8 @@ button {
   border: 1px solid black !important;
 }
 
-#logo-button {
-  /* border: 1px solid blue; */
-  /* width: 62%; */
+.navbar-toggler:focus {
+  outline: none !important;
 }
 
 .cover {
