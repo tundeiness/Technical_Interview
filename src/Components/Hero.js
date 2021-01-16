@@ -7,20 +7,30 @@ const Hero = () => (
         <div className="col-12 hero_words">
           <div />
           <div className="word_wrapper">
-            <p className="foreword">
-              Integer bibendum sit amet
+            <p className="foreword d-lg-none d-xl-none">
+              Integer bibendum
+              {' '}
+              <br />
+              sit amet
+              arcu vel
               {' '}
               <br />
               {' '}
+              egestas.
+            </p>
+            <p className="foreword d-none d-md-block foreword-large">
+              Integer bibendum sit amet
+              {' '}
+              <br />
               arcu vel egestas.
             </p>
           </div>
           <div />
         </div>
         <div className="col-12 hero_icons">
-          <div className="row flex-md-row flex-lg-row">
+          <div className="row flex-column flex-md-row flex-lg-row align-items-center">
             <div className="col-2 col-lg-3" />
-            <div className="icon_wrapper col-8 col-lg-6 d-flex flex-column flex-md-row justify-content-lg-center">
+            <div className="icon_wrapper col-12 col-lg-6 d-flex flex-column flex-md-row  justify-content-lg-center">
               <div className="d-flex flex-lg-column flex-row mr-lg-4 consulting_wrapper">
                 <i className="lni lni-consulting consulting " />
                 <span className="d-inline-block"> Service Name</span>

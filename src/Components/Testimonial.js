@@ -9,15 +9,14 @@ const Testimonial = () => (
       <div className="col-12 testimonial_content">
         <div className="row flex-column flex-md-row">
           <div className="col-lg-4 col-12">
-            <div className="d-flex flex-column w-75 talk-bubble tri-right btm-right">
+            <div className="d-flex flex-column talk-bubble tri-right btm-right">
               <div className="talktext ">
                 <i className="lni lni-quotation lni-rotate-180 quotation" />
                 <p className="d-inline">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aenean sed nulla eget quam varius fermentum sed vitae felis.
                   Vivamus lacus purus, malesuada a malesuada in, rutrum et
-                  lectus. Vivamus lacus purus, malesuada a malesuada in, rutrum
-                  et lectus
+                  lectus.
                 </p>
               </div>
             </div>
@@ -32,7 +31,7 @@ const Testimonial = () => (
               </div>
               <div className=" summary-content">
                 <div className="content-card">
-                  <h3 className="card-title ">CLIENT NAME</h3>
+                  <span className="card-title ">CLIENT NAME</span>
                   <p className="position">Position, ORG</p>
                 </div>
               </div>
@@ -63,7 +62,7 @@ const Testimonial = () => (
               </div>
               <div className=" summary-content">
                 <div className="content-card">
-                  <h3 className="card-title ">CLIENT NAME</h3>
+                  <span className="card-title ">CLIENT NAME</span>
                   <p className="position">Position, ORG</p>
                 </div>
               </div>
@@ -93,7 +92,7 @@ const Testimonial = () => (
               </div>
               <div className=" summary-content">
                 <div className="content-card">
-                  <h3 className="card-title ">CLIENT NAME</h3>
+                  <span className="card-title ">CLIENT NAME</span>
                   <p className="position">Position, ORG</p>
                 </div>
               </div>

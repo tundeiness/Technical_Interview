@@ -20,7 +20,7 @@ const Advert = () => (
           blandit.
         </p>
       </div>
-      <div className="col-md-6 col-12 advert_image pr-0">
+      <div className="col-md-6 col-12 advert_image">
         <img
           className="img-fluid"
           src="https://user-images.githubusercontent.com/25479050/103773808-efaf7000-502b-11eb-859a-c00e77518e87.png"
