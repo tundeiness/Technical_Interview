@@ -89,7 +89,9 @@ button {
 
 #landing_section {
   margin-top: 4rem;
-  height: 35rem !important;
+  /* padding-top: 13rem;
+  padding-bottom: 13rem; */
+  /* height: 35rem !important; */
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("http:i.imgur.com/AhCfhrF.jpg");
@@ -97,7 +99,7 @@ button {
   background-color: #000;
   opacity: 0.75;
   /* filter: grayscale(100%); */
-  height: 500px; /* You must set a specified height */
+  /* height: 500px; */
   background-position: center center;
   /* background-position: center center; */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -197,12 +199,12 @@ button {
   .consulting,
   .cogs,
   .folder {
-    font-size: 3.5rem;
+    font-size: 2rem;
     padding-left: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 0.8rem;
     padding-bottom: 0.5rem;
     color: red;
-    margin-right: 1.5rem;
+    margin-right: .7rem;
   }
 
   .consulting_wrapper span,
@@ -210,7 +212,7 @@ button {
   .folder_wrapper span {
     font-size: 1rem;
     color: white;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-bottom: 0.5rem;
   }
 
@@ -225,8 +227,23 @@ button {
     margin-bottom: 1.5rem;
   }
 
+  .ele {
+    position: absolute;
+    /* width: 100%; */
+    top: 10%;
+    left: 15px;
+}
+
+#landing_section {
+  padding-top: 13rem;
+  padding-bottom: 13rem;
+}
+
   .foreword {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
   }
 
   .advert_statement_h {
@@ -286,7 +303,12 @@ button {
   }
 
   #landing_section {
-    height: 59rem !important;
+    /* height: 59rem !important; */
+  }
+
+  #landing_section {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
   }
 
   .cta-desktop {
