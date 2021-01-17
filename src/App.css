@@ -193,7 +193,8 @@ button {
 
   .cta_wrapper {
     /* padding-top: 0.8rem; */
-    margin: 1.35rem 0;
+    /* margin: 1rem 0; */
+    /* margin: 1.2rem 0; controls vertical centering*/
   }
 
   .consulting,
@@ -410,17 +411,69 @@ button {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1400px) {
  
   .brand {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
+    font-weight: bold;
+    margin: 2rem 0 !important;
+    /* margin: 1.4rem auto 1rem auto !important; */
     /* margin: 1.4rem auto 1rem auto !important; */
   }
 
-  .sub-container {
-    /* margin-left: 60rem; */
-    margin-left: 20rem;
+  .nav-item {
+
   }
+
+  .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  /* .navbar-collapse ul li.active .about {
+    text-decoration:none !important;
+    color:#fff !important;
+  } */
+
+  .about {
+    text-decoration:none !important;
+    color:#fff !important;
+  }
+
+
+  .nav-item:nth-child(2) {
+    margin-right: 2rem;
+    color: grey;
+  }
+
+.nav-item:first-child > .nav-link:active {
+  /* color: #fff !important; */
+}
+
+
+  .sub-container {
+    /* margin-left: 31rem; */
+  }
+
+  .cta {
+    /* margin: .2rem 0 !important; */
+    display: inline-block;
+  }
+
+  .cta_wrapper {
+    margin-top: 1.79rem!important;
+  }
+
+  .cta-desktop {
+    padding: .25rem 0;
+    border-radius: 1rem;
+  }
+
+  .cta_desktop_lni {
+    
+  }
+
+  
 
   #landing_section {
     /* height: 59rem !important; */
@@ -434,20 +487,20 @@ button {
   .cta-desktop {
     /* background: red; */
     background: red;
-    border-top-right-radius: 2rem;
+    /* border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-bottom-right-radius: 2rem; */
     color: #fff;
-    font-weight: 600;
-    font-size: 1.1rem;
+    /* font-weight: 600; */
+    font-size: .8rem;
     border: 0 !important;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
   .cta_desktop_lni {
-    margin: 0.9rem auto auto auto;
+    /* margin: 0.9rem auto auto auto; */
   }
 
   .foreword {
@@ -524,14 +577,10 @@ button {
   }
 }
 
-.nav-link {
-  color: grey;
-  font-size: 1.4rem;
-}
 
-.nav-link:active {
+/* .nav-link:active {
   color: #fff;
-}
+} */
 
 .nav-link:hover {
   color: #fff;
@@ -546,6 +595,10 @@ button {
 }
 
 .nav-item:nth-child(3) {
+  margin-right: 2rem;
+}
+
+.nav-item:nth-child(4) {
   margin-right: 2rem;
 }
 
