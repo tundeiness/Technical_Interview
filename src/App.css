@@ -359,6 +359,8 @@ button {
 
   .btn_wrapper {
     text-align: center !important;
+    margin-top: 2rem !important;
+    margin-bottom: 4.5rem !important;
   }
 
   #submit {
@@ -367,21 +369,44 @@ button {
     padding: .3rem 1.5rem !important;
   }
 
+  .copyright {
+    margin-top: 1.7rem;
+  }
+
   .copyright > p {
     /* text-align: left; */
     /* margin: 3rem auto auto auto; */
+    font-size: .9rem !important;
     text-align: center;
   }
+
+  /* .copyright > p {
+    color: grey;
+    font-size: .9rem;
+  } */
 
   .socials_text_wrapper {
     margin: 0 !important;
     /* text-align: center !important; */
     /* color: grey;
     font-size: 1.2rem; */
+    text-align: center !important;
   }
 
   .social_text {
-    margin-left: 5.5rem;
+    /* margin-left: 5.5rem; */
+    font-size: .9rem;
+  }
+
+  .facebook,
+  .linkedin,
+  .twitter,
+  .envelope {
+    font-size: .85rem !important;
+  }
+
+  .socials {
+    padding: 0 2.5rem !important;
   }
 }
 
@@ -658,7 +683,8 @@ button {
   /* https://user-images.githubusercontent.com/25479050/103905631-24402c00-50ff-11eb-8ad5-95fbefb64065.jpg */
 
   /* position: relative; */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+  /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), */
     url("https://user-images.githubusercontent.com/25479050/103905631-24402c00-50ff-11eb-8ad5-95fbefb64065.jpg");
   background-color: #000;
   opacity: 0.75;
