@@ -31,15 +31,15 @@ const Hero = () => (
           <div className="row flex-column flex-md-row flex-lg-row align-items-center">
             <div className="col-2 col-lg-3" />
             <div className="icon_wrapper col-12 col-lg-6 d-flex flex-column flex-md-row  justify-content-lg-center">
-              <div className="d-flex flex-lg-column flex-row mr-lg-4 consulting_wrapper">
+              <div className="d-flex flex-lg-column flex-md-column flex-row mr-lg-4 align-items-lg-center consulting_wrapper">
                 <i className="lni lni-consulting consulting " />
                 <span className="d-inline-block"> Service Name</span>
               </div>
-              <div className="d-flex flex-lg-column flex-sm-row mr-lg-4 cogs_wrapper">
+              <div className="d-flex flex-lg-column flex-md-column flex-row mr-lg-4 align-items-lg-center cogs_wrapper">
                 <i className="lni lni-cogs cogs " />
                 <span className="d-inline-block"> Service Name</span>
               </div>
-              <div className="d-flex flex-lg-column flex-sm-row folder_wrapper">
+              <div className="d-flex flex-lg-column flex-md-column flex-row align-items-lg-center folder_wrapper">
                 <i className="lni lni-folder folder" />
                 <span className="d-inline-block"> Service Name</span>
               </div>

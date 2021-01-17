@@ -504,10 +504,10 @@ button {
   }
 
   .foreword {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: bold;
     margin-top: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .ele {
@@ -519,21 +519,25 @@ button {
   .consulting,
   .cogs,
   .folder {
-    font-size: 8.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 3rem;
-    padding-bottom: 0.5rem;
+    font-size: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    /* padding-bottom: 0.5rem; */
     color: red;
+    margin: 0 !important;
   }
 
   .consulting_wrapper span,
   .cogs_wrapper span,
   .folder_wrapper span {
-    font-size: 1.6rem;
-    letter-spacing: 0.2rem;
+    font-size: .8rem;
+    /* letter-spacing: 0.2rem; */
     color: white;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    padding-top: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .consulting_wrapper,
