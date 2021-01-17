@@ -336,6 +336,37 @@ button {
     margin-top: 2rem;
   }
 
+
+  .testimonial_content {
+    margin-bottom: 8rem !important;
+  }
+
+
+  .contact_heading_wrapper {
+    margin-top: 4.5rem !important;
+  }
+
+  .contact_heading {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .contact_subheading {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+
+  .btn_wrapper {
+    text-align: center !important;
+  }
+
+  #submit {
+    font-weight: 400 !important;
+    font-size: .8rem !important;
+    padding: .3rem 1.5rem !important;
+  }
+
   .copyright > p {
     /* text-align: left; */
     /* margin: 3rem auto auto auto; */
@@ -627,7 +658,7 @@ button {
   /* https://user-images.githubusercontent.com/25479050/103905631-24402c00-50ff-11eb-8ad5-95fbefb64065.jpg */
 
   /* position: relative; */
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("https://user-images.githubusercontent.com/25479050/103905631-24402c00-50ff-11eb-8ad5-95fbefb64065.jpg");
   background-color: #000;
   opacity: 0.75;

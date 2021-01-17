@@ -4,10 +4,10 @@ const Contact = () => (
   <div className="container-fluid" id="contact_section">
     <div className="row">
       <div className="col-12 d-flex flex-column justify-content-center contact_heading_wrapper">
-        <h1 className="d-inline contact_heading">Convinced to work with us?</h1>
-        <h4 className="d-inline contact_subheading">
+        <span className="d-inline contact_heading">Convinced to work with us?</span>
+        <span className="d-inline contact_subheading">
           Company has helped agencies keep their promises to clients since 2005
-        </h4>
+        </span>
       </div>
       <div className="col-12 contact_content">
         <div className="row">
