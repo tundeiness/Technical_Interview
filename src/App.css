@@ -368,8 +368,11 @@ button {
     font-weight: 400 !important;
     font-size: .8rem !important;
     padding: .3rem 1.5rem !important;
+    /* background: red; */
   }
 
+
+ 
   .copyright {
     margin-top: 1.7rem;
   }
@@ -594,6 +597,27 @@ button {
   .col-4 > .item {
     position: relative;
   }
+
+  /* .btn_wrapper {
+    margin-top: 3rem !important;
+    margin-bottom: 8rem;
+  } */
+
+  .btn_submit{}
+
+
+  #submit {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+    border-radius: 2rem !important;
+    color: #fff;
+    font-weight: 500 !important;
+    font-size: .9rem!important;
+    border: 0 !important;
+  }
+
 
   .copyright > p {
     text-align: left;
