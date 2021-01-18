@@ -41,7 +41,7 @@ const Header = () => {
                 <span className="logo">LOGO</span>
               </a>
 
-              <div className="collapse navbar-collapse d-flex justify-content-md-end ustify-content-lg-end" id="collapsibleNavbar">
+              <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav sub-container">
                   <li className="nav-item">
                     <a className="nav-link about" href="/about">

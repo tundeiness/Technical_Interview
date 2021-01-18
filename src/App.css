@@ -424,6 +424,11 @@ button {
     /* margin: 1.4rem auto 1rem auto !important; */
   }
 
+  .sub-container {
+    /* text-align: right !important; */
+    margin-left: 30rem;
+  }
+
   .nav-item {
 
   }

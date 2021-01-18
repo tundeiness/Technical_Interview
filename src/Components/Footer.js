@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="row flex-column align-items-lg-center flex-md-row">
         <div className="col-12 col-md-6 copyright">
           {' '}
-          <span>&copy; 2021 Company. All Rights Reserved</span>
+          <span>&copy; 2021 Company. All Rights Reserved.</span>
         </div>
         <div className="col-md-6 col-12 d-flex flex-row justify-content-lg-end socials">
           <div className="socials_text_wrapper mr-lg-0">
