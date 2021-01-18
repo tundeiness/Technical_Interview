@@ -428,6 +428,7 @@ button {
   .nav-link {
     font-size: 1rem;
     font-weight: 500;
+    color: #666;
   }
 
   /* .navbar-collapse ul li.active .about {
@@ -555,18 +556,19 @@ button {
   }
 
   .advert_statement_p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: left;
-    line-height: 2;
+    line-height: 1.8;
     white-space: wrap;
   }
 
   .advert_statement_h {
-    font-weight: 500;
-    font-size: 21px;
+    font-weight: 600;
+    font-size: 23px;
     text-align: left;
     margin-top: 7rem;
-    width: 80%;
+    width: 75%;
+    line-height: 1.5;
   }
 
   .col-4 > .item {
