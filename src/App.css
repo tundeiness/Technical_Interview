@@ -598,10 +598,7 @@ button {
     position: relative;
   }
 
-  /* .btn_wrapper {
-    margin-top: 3rem !important;
-    margin-bottom: 8rem;
-  } */
+
 
   .btn_submit{}
 
@@ -619,11 +616,59 @@ button {
   }
 
 
+  .socials_text_wrapper {
+    /* margin: 3rem auto auto auto; */
+    color: #fff !important;
+    font-size: 0 !important
+  }
+
+  .copyright {
+    /* margin-top: 1.7rem; */
+    margin-top: 0 !important;
+  }
+
+
   .copyright > p {
     text-align: left;
-    margin-top: 0 !important;
-    /* margin: 3rem auto auto auto; */
-    /* text-align: center; */
+  }
+
+  div#footer > div {
+    padding: 3rem 0 !important;
+  }
+
+  .copyright {
+    font-size: .9rem;
+    color: #fff;
+  }
+
+  .socials {
+    /* padding: 0 2.5rem !important; */
+    /* line-height: 1.5; */
+  }
+
+  .socials_text_wrapper {
+    /* margin: 0 !important; */
+    /* text-align: center !important; */
+    /* color: grey;
+    font-size: 1.2rem; */
+    /* text-align: center !important; */
+    /* border: 1px solid red; */
+    /* margin-top: -.8rem !important; */
+  }
+
+  .social_text {
+    /* font-size: .9rem; */
+  }
+
+  .facebook,
+  .linkedin,
+  .twitter,
+  .envelope {
+    /* font-size: .85rem !important; */
+  }
+
+  .socials {
+    /* padding: 0 2.5rem !important; */
   }
 }
 
