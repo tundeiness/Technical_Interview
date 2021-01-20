@@ -388,11 +388,16 @@ button {
     margin-top: 1.7rem;
   }
 
-  .copyright > p {
+  .copyright > span {
     /* text-align: left; */
     /* margin: 3rem auto auto auto; */
     font-size: .9rem !important;
     text-align: center;
+  }
+
+  .copyright {
+    /* font-size: .9rem; */
+    color: #fff;
   }
 
   /* .copyright > p {
@@ -406,6 +411,7 @@ button {
     /* color: grey;
     font-size: 1.2rem; */
     text-align: center !important;
+    color: #fff !important;
   }
 
   .social_text {
