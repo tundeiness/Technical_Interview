@@ -386,6 +386,7 @@ button {
  
   .copyright {
     margin-top: 1.7rem;
+    color: #fff;
   }
 
   .copyright > span {
@@ -395,15 +396,7 @@ button {
     text-align: center;
   }
 
-  .copyright {
-    /* font-size: .9rem; */
-    color: #fff;
-  }
 
-  /* .copyright > p {
-    color: grey;
-    font-size: .9rem;
-  } */
 
   .socials_text_wrapper {
     margin: 0 !important;

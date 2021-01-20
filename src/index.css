@@ -9,7 +9,8 @@
   left: 0;
   transition: transform .3s ease-in-out;
   transform: translateY(-100%);
-  background: #EFFFFA !important;
+  /* background: #EFFFFA !important; */
+  background: #000;
   z-index: 1;
   opacity: .9;
   /* background-color: #fff !important; */
@@ -34,7 +35,13 @@
   text-decoration: none;
   transition: color .3s linear;
   padding-top: 1.35rem;
-  
+  /* color: #fff; */
+  color: #666;
+}
+.menu-link:hover {
+  text-decoration: none;
+  /* color: red; */
+  color: #fff;
 }
 
 
