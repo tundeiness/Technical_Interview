@@ -192,9 +192,14 @@ button {
   }
 
   .cta_wrapper {
-    /* padding-top: 0.8rem; */
-    /* margin: 1rem 0; */
+    /* padding-top: 0.8rem; 
+    margin: .7rem 0; */
     /* margin: 1.2rem 0; controls vertical centering*/
+  }
+
+  .cta-mobile  {
+    padding-top: 0.8rem; 
+    margin: .7rem 0;
   }
 
   .consulting,

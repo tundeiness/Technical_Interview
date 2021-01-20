@@ -70,7 +70,7 @@ const Header = () => {
 
               <div className="px-0 cta_wrapper">
                 <a className="cta" href="/contact">
-                  <span className="cta-mobile d-lg-none d-md-none">
+                  <span className="d-block cta-mobile d-lg-none d-md-none">
                     <i className="lni lni-popup cta_mobile_lni" />
                   </span>
                   <span className="cta-desktop d-none d-md-inline-block d-lg-inline-block">
