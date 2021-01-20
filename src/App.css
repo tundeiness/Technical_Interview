@@ -289,6 +289,12 @@ button {
     margin-top: 3rem !important;
   }
 
+
+  .content-wrapper {
+    width: 90%;
+    margin: 0 .9rem;
+  }
+
   .talk-bubble {
     margin: 0 .1rem !important;
     width: 100% !important;
