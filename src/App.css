@@ -500,6 +500,20 @@ button {
     line-height: 1.6;
   }
 
+  .copyright {
+    /* margin-top: 1.7rem; */
+    margin-top: 0 !important;
+  }
+
+
+  .copyright > p {
+    text-align: left;
+  }
+
+  div#footer > div {
+    padding: 3rem 0 !important;
+  }
+
  }
 
 
