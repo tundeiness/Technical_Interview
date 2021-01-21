@@ -7,7 +7,7 @@ const Hero = () => (
         <div className="col-12 hero_words">
           <div />
           <div className="word_wrapper">
-            <p className="foreword d-lg-none d-xl-none">
+            <p className="foreword d-lg-none d-md-none d-xl-none">
               Integer bibendum
               {' '}
               <br />
@@ -30,16 +30,16 @@ const Hero = () => (
         <div className="col-12 hero_icons">
           <div className="row flex-column flex-md-row flex-lg-row align-items-center">
             <div className="col-2 col-lg-3" />
-            <div className="icon_wrapper col-12 col-lg-6 d-flex flex-column flex-md-row  justify-content-lg-center">
-              <div className="d-flex flex-lg-column flex-md-column flex-row mr-lg-4 align-items-lg-center consulting_wrapper">
+            <div className="icon_wrapper col-12 col-lg-6 d-flex flex-column flex-md-row justify-content-md-center justify-content-lg-center">
+              <div className="d-flex flex-lg-column flex-md-column flex-row mr-lg-4 mr-md-4 align-items-lg-center align-items-md-center consulting_wrapper">
                 <i className="lni lni-consulting consulting " />
                 <span className="d-inline-block"> Service Name</span>
               </div>
-              <div className="d-flex flex-lg-column flex-md-column flex-row mr-lg-4 align-items-lg-center cogs_wrapper">
+              <div className="d-flex flex-lg-column flex-md-column flex-row mr-lg-4 mr-md-4 align-items-lg-center align-items-md-center cogs_wrapper">
                 <i className="lni lni-cogs cogs " />
                 <span className="d-inline-block"> Service Name</span>
               </div>
-              <div className="d-flex flex-lg-column flex-md-column flex-row align-items-lg-center folder_wrapper">
+              <div className="d-flex flex-lg-column flex-md-column flex-row align-items-lg-center align-items-md-center folder_wrapper">
                 <i className="lni lni-folder folder" />
                 <span className="d-inline-block"> Service Name</span>
               </div>

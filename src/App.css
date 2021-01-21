@@ -122,8 +122,8 @@ button {
   /* z-index: 99999; */
   /* border-radius: 50%; */
   /* background-color: #000; */
-  top: 15%;
-  left: 15px;
+  /* top: 15%;
+  left: 15px; */
   /* width: 60px;
   height: 60px; */
   /* position: absolute;
@@ -456,14 +456,32 @@ button {
     color: #666;
   }
 
-  /* .about:active {
-    text-decoration:none !important;
-    color:#fff !important;
-  } */
+  .foreword {
+    /* font-size: 2.4rem;
+    font-weight: bold; */
+    /* margin-top: 0 !important;
+    margin-bottom: 0 !important; */
+    /* margin-top: 5rem;
+    margin-bottom: 2rem; */
+  }
 
 
+  .consulting_wrapper span, 
+  .cogs_wrapper span, 
+  .folder_wrapper span {
+    font-size: .8rem;
+    padding-bottom: 1.5rem;
+    padding-top: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
 
+  .ele {
+    /* position: absolute; */
+    top: 25% ;
+    left: 15px ;
+  }
 
  }
 
@@ -474,8 +492,6 @@ button {
     font-size: 1rem !important;
     font-weight: bold;
     margin: 2rem 0 !important;
-    /* margin: 1.4rem auto 1rem auto !important; */
-    /* margin: 1.4rem auto 1rem auto !important; */
   }
 
   .sub-container {
@@ -577,6 +593,8 @@ button {
     /* padding-bottom: 12rem; */
     /* margin-top: 5rem;
     margin-bottom: 5rem; */
+      top: 15%;
+      left: 15px;
   }
 
   .consulting,
