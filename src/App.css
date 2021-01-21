@@ -483,6 +483,23 @@ button {
     left: 15px ;
   }
 
+  .content-wrapper {
+    width: 50%;
+  }
+
+  .talk-bubble{
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+
+  .talktext {
+    margin: 1rem 2rem 3rem 2.5rem;
+  }
+
+  .talktext > span {
+    line-height: 1.6;
+  }
+
  }
 
 
@@ -656,14 +673,11 @@ button {
   }
 
   .talk-bubble{
-    /* width: 0 !important; */
     width: 90% !important;
     margin: 0 auto !important;
   }
 
   .talktext {
-    /* text-align: left !important; */
-    /* width: 60%; */
     margin: 1rem 2rem 3rem 2.5rem;
   }
 

@@ -58,7 +58,7 @@ const Testimonial = () => {
           <p className="d-inline testimonial_heading">Testimonials</p>
         </div>
         <div className="col-12 testimonial_content">
-          <div className="row flex-column flex-md-row justify-content-lg-center">
+          <div className="row flex-column flex-md-row justify-content-md-center justify-content-lg-center">
             <div className="content-wrapper">
               <div className="d-flex flex-column justify-content-lg-center talk-bubble tri-right btm-right">
                 <div className="talktext ">
@@ -87,7 +87,7 @@ const Testimonial = () => {
               </div>
             </div>
 
-            <div className="content-wrapper d-none d-md-block">
+            <div className="content-wrapper d-none d-md-none d-lg-block">
               <div className="d-flex justify-content-lg-center talk-bubble tri-right btm-right">
                 <div className="talktext">
                   <i className="lni lni-quotation lni-rotate-180 quotation" />
@@ -117,7 +117,7 @@ const Testimonial = () => {
               </div>
             </div>
 
-            <div className="content-wrapper d-none d-md-block">
+            <div className="content-wrapper d-none d-md-none d-lg-block">
               <div className="d-flex justify-content-lg-center talk-bubble tri-right btm-right">
                 <div className="talktext ">
                   <i className="lni lni-quotation lni-rotate-180 quotation" />
