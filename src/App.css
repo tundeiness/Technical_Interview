@@ -1,9 +1,6 @@
-.App {
-  /* text-align: center; */
-}
+
 
 #nav {
-  /* border: 1px solid red; */
   background: #000;
 }
 
@@ -47,15 +44,12 @@ button {
   border-bottom-right-radius: 16px;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
-  background-color: red; /*needs to be changed globally with cssmixin*/
+  background-color: red;
 }
-
-/* change cta padding, background, border when it reaches certain breakpoint */
 
 .cta_mobile_lni {
   color: white;
   font-size: 1.5rem;
-  /* font-weight: bold; */
   font-weight: 500 !important;
 }
 
@@ -89,12 +83,9 @@ button {
 
 #landing_section {
   margin-top: 4rem;
-  /* padding-top: 13rem;
-  padding-bottom: 13rem; */
-  /* height: 35rem !important; */
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("http:i.imgur.com/AhCfhrF.jpg");
+    url("https://user-images.githubusercontent.com/25479050/103625897-d9c28200-4f3b-11eb-8009-dab51cd56d86.jpg");
   /* background-color: #34495e; */
   background-color: #000;
   opacity: 0.75;
