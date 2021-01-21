@@ -424,6 +424,50 @@ button {
   }
 }
 
+
+@media screen and (min-width: 768px) {
+  .cta-desktop {
+    background: red;
+    color: #fff;
+    font-size: .8rem;
+    border: 0 !important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+  }
+
+  .cta_wrapper {
+    margin-top: 1.3rem!important;
+  }
+
+  .cta-desktop {
+    padding: .25rem 0;
+    border-radius: 1rem;
+  }
+
+  .sub-container {
+    margin-left: 3.9rem;
+  }
+
+  .sub-container > :visited {
+    color: #fff !important;
+  }
+
+  .nav-link {
+    color: #666;
+  }
+
+  /* .about:active {
+    text-decoration:none !important;
+    color:#fff !important;
+  } */
+
+
+
+
+
+ }
+
+
 @media screen and (min-width: 992px) and (max-width: 1400px) {
  
   .brand {
@@ -656,41 +700,12 @@ button {
     color: #fff;
   }
 
-  .socials {
-    /* padding: 0 2.5rem !important; */
-    /* line-height: 1.5; */
-  }
-
-  .socials_text_wrapper {
-    /* margin: 0 !important; */
-    /* text-align: center !important; */
-    /* color: grey;
-    font-size: 1.2rem; */
-    /* text-align: center !important; */
-    /* border: 1px solid red; */
-    /* margin-top: -.8rem !important; */
-  }
-
-  .social_text {
-    /* font-size: .9rem; */
-  }
-
-  .facebook,
-  .linkedin,
-  .twitter,
-  .envelope {
-    /* font-size: .85rem !important; */
-  }
-
-  .socials {
-    /* padding: 0 2.5rem !important; */
-  }
 }
 
 
-/* .nav-link:active {
-  color: #fff;
-} */
+
+
+
 
 .nav-link:hover {
   color: #fff;
