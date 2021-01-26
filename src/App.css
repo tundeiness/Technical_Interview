@@ -615,7 +615,7 @@ button {
   font-size: 1rem;
 }
 
-.tri-right.border.btm-right:before {
+.tri-right.border.btm-right::before {
   content: " ";
   position: absolute;
   width: 0;
@@ -626,7 +626,7 @@ button {
   border: 20px solid;
 }
 
-.tri-right.btm-right:after {
+.tri-right.btm-right::after {
   content: " ";
   position: absolute;
   width: 0;
