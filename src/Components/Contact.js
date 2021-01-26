@@ -4,17 +4,17 @@ const Contact = () => (
   <div className="container-fluid" id="contact_section">
     <div className="row">
       <div className="col-12 d-flex flex-column justify-content-center contact_heading_wrapper">
-        <h1 className="d-inline contact_heading">Convinced to work with us?</h1>
-        <h4 className="d-inline contact_subheading">
+        <span className="d-inline contact_heading">Convinced to work with us?</span>
+        <span className="d-inline contact_subheading">
           Company has helped agencies keep their promises to clients since 2005
-        </h4>
+        </span>
       </div>
       <div className="col-12 contact_content">
-        <div className="row">
-          <div className="col-md-3 col-12" />
-          <div className="col-md-6 col-12">
-            <div className="row g-3  details">
-              <div className="col-md-4 col-12 pb-2 pb-md-0">
+        <div className="row flex-md-column flex-lg-row justify-content-md-center align-items-md-center">
+          <div className="col-md-3 col-lg-3 col-12" />
+          <div className="col-md-6 col-lg-6 col-12">
+            <div className="row g-3 details">
+              <div className="col-md-12 col-lg-4 col-12 pb-2 pb-md-2 pb-lg-0">
                 <input
                   type="text"
                   className="form-control"
@@ -22,7 +22,7 @@ const Contact = () => (
                   aria-label="Fullname"
                 />
               </div>
-              <div className="col-md-4 col-12 pb-2 pb-md-0">
+              <div className="col-md-12 col-lg-4 col-12 pb-2 pb-md-2 pb-lg-0">
                 <input
                   type="text"
                   className="form-control"
@@ -30,7 +30,7 @@ const Contact = () => (
                   aria-label="Email Address"
                 />
               </div>
-              <div className="col-md-4 col-12">
+              <div className="col-md-12 col-lg-4 col-12">
                 <input
                   type="text"
                   className="form-control"
@@ -56,7 +56,7 @@ const Contact = () => (
               </button>
             </div>
           </div>
-          <div className="col-md-3 col-12" />
+          <div className="col-md-3 col-lg-3 col-12" />
         </div>
       </div>
     </div>

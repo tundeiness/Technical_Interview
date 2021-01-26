@@ -44,22 +44,22 @@ const Header = () => {
               <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav sub-container">
                   <li className="nav-item">
-                    <a className="nav-link" href="/about">
+                    <a className="nav-link about" href="/about">
                       About
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/services">
+                    <a className="nav-link services" href="/services">
                       Services
                       {' '}
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item solutions">
                     <a className="nav-link" href="/solutions">
                       Solutions
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item blog">
                     <a className="nav-link" href="/blog">
                       Blog
                       {' '}
@@ -70,13 +70,13 @@ const Header = () => {
 
               <div className="px-0 cta_wrapper">
                 <a className="cta" href="/contact">
-                  <span className="cta-mobile d-lg-none d-md-none">
+                  <span className="d-block cta-mobile d-lg-none d-md-none">
                     <i className="lni lni-popup cta_mobile_lni" />
                   </span>
                   <span className="cta-desktop d-none d-md-inline-block d-lg-inline-block">
                     <i className="lni lni-popup cta_desktop_lni" />
                     {' '}
-                    <p className="d-inline-block">Get In Touch</p>
+                    <span className="d-inline-block">Get In Touch</span>
                   </span>
                 </a>
               </div>

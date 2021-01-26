@@ -6,7 +6,7 @@ const Menu = ({ open }) => {
   const move = open ? 'translateY(0)' : 'translateY(-100%)';
 
   return (
-    <div className=" off-canvas" open={open} style={{ transform: move }}>
+    <div className=" off-canvas fixed-top" open={open} style={{ transform: move }}>
       <span className="d-flex flex-column justify-content-center link-wrapper">
         <a className="menu-link" href="/about">
           About
