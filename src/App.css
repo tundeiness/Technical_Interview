@@ -81,9 +81,9 @@ button {
 #landing_section {
   margin-top: 4rem;
   position: relative;
-  background: 
-  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  url("https://user-images.githubusercontent.com/25479050/103625897-d9c28200-4f3b-11eb-8009-dab51cd56d86.jpg");
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://user-images.githubusercontent.com/25479050/103625897-d9c28200-4f3b-11eb-8009-dab51cd56d86.jpg");
   background-color: #000;
   opacity: 0.75;
   background-position: center center;
@@ -714,7 +714,7 @@ button {
 }
 
 #contact_section > .row {
-  background: 
+  background:
   linear-gradient(to bottom, rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
   url("https://user-images.githubusercontent.com/25479050/103905631-24402c00-50ff-11eb-8ad5-95fbefb64065.jpg");
   background-color: #000;
