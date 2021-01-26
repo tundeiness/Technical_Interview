@@ -416,8 +416,8 @@ button {
   }
 
   .about {
-    text-decoration:none !important;
-    color:#fff !important;
+    text-decoration: none !important;
+    color: #fff !important;
   }
 
   .nav-item:nth-child(2) {
