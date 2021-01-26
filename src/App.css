@@ -27,7 +27,6 @@ button {
   border: 1px solid black;
 }
 
-
 .brand {
   font-size: 1.5rem !important;
   margin: 1.4rem auto 1rem auto !important;
@@ -79,7 +78,6 @@ button {
 }
 
 /* Landing Page */
-
 #landing_section {
   margin-top: 4rem;
   position: relative;
@@ -106,7 +104,6 @@ button {
   font-size: 1rem;
 }
 
-
 .consulting,
 .cogs,
 .folder {
@@ -127,7 +124,6 @@ button {
 }
 
 /* Small devices (tablets, 320px and below) */
-
 @media screen and (min-width: 320px) {
  
   .brand {
@@ -143,7 +139,6 @@ button {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
-
 
   .cta-mobile  {
     padding-top: 0.8rem; 
@@ -199,7 +194,6 @@ button {
     
   }
 
-
   .advert_statement_h {
     text-align: left;
     font-size: 1.5rem;
@@ -221,7 +215,6 @@ button {
     margin-top: 3rem !important;
   }
 
-
   .content-wrapper {
     width: 90%;
     margin: 0 0.9rem;
@@ -241,7 +234,6 @@ button {
     margin: 1.3rem 2.3rem;
   }
 
-
   .quotation {
     font-size: 2.2rem;
     color: red;
@@ -259,7 +251,6 @@ button {
     margin-left: 0 !important;
   }
 
-
   .summary-content {
     padding: 0.5rem 0;
   }
@@ -268,17 +259,13 @@ button {
     font-size: 1rem !important;
   }
 
-
-
   .wrap {
     margin-top: 2rem;
   }
 
-
   .testimonial_content {
     margin-bottom: 8rem !important;
   }
-
 
   .contact_heading_wrapper {
     margin-top: 4.5rem !important;
@@ -294,7 +281,6 @@ button {
     font-size: 1.2rem;
   }
 
-
   .btn_wrapper {
     text-align: center !important;
     margin-top: 2rem !important;
@@ -307,8 +293,6 @@ button {
     padding: 0.3rem 1.5rem !important;
   }
 
-
- 
   .copyright {
     margin-top: 1.7rem;
     color: #fff;
@@ -318,8 +302,6 @@ button {
     font-size: 0.9rem !important;
     text-align: center;
   }
-
-
 
   .socials_text_wrapper {
     margin: 0 !important;
@@ -342,7 +324,6 @@ button {
     padding: 0 2.5rem !important;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .cta-desktop {
@@ -375,7 +356,6 @@ button {
     color: #666;
   }
 
-
   .consulting_wrapper span, 
   .cogs_wrapper span, 
   .folder_wrapper span {
@@ -385,7 +365,6 @@ button {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
 
   .ele {
     top: 25% ;
@@ -413,7 +392,6 @@ button {
     margin-top: 0 !important;
   }
 
-
   .copyright > p {
     text-align: left;
   }
@@ -423,7 +401,6 @@ button {
   }
 
  }
-
 
 @media screen and (min-width: 992px) and (max-width: 1400px) {
  
@@ -437,26 +414,21 @@ button {
     margin-left: 30rem;
   }
 
-
   .nav-link {
     font-size: 1rem;
     font-weight: 500;
     color: #666;
   }
 
- 
-
   .about {
     text-decoration:none !important;
     color:#fff !important;
   }
 
-
   .nav-item:nth-child(2) {
     margin-right: 2rem;
     color: grey;
   }
-
 
   .cta {
     display: inline-block;
@@ -471,8 +443,6 @@ button {
     border-radius: 1rem;
   }
 
-
-
   #landing_section {
     padding-top: 18rem;
     padding-bottom: 18rem;
@@ -486,8 +456,6 @@ button {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
- 
 
   .foreword {
     font-size: 2.4rem;
@@ -574,8 +542,6 @@ button {
     position: relative;
   }
 
-
-
   #submit {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
@@ -588,7 +554,6 @@ button {
     border: 0 !important;
   }
 
-
   .socials_text_wrapper {
     color: #fff !important;
     font-size: 0 !important
@@ -597,7 +562,6 @@ button {
   .copyright {
     margin-top: 0 !important;
   }
-
 
   .copyright > p {
     text-align: left;
@@ -613,7 +577,6 @@ button {
   }
 
 }
-
 
 .nav-link:hover {
   color: #fff;
@@ -759,7 +722,6 @@ button {
 }
 
 #contact_section > .row {
-  
   background:linear-gradient(to bottom, rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
     url("https://user-images.githubusercontent.com/25479050/103905631-24402c00-50ff-11eb-8ad5-95fbefb64065.jpg");
   background-color: #000;
@@ -767,7 +729,6 @@ button {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .contact_heading {
@@ -794,7 +755,6 @@ button {
   color: grey;
   font-size: 1.2rem;
 }
-
 
 .socials > p {
   color: grey;
