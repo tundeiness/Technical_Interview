@@ -1,5 +1,4 @@
 
-
 #nav {
   background: #000;
 }
@@ -616,10 +615,6 @@ button {
 }
 
 
-
-
-
-
 .nav-link:hover {
   color: #fff;
 }
@@ -826,4 +821,3 @@ button {
   color: grey;
   font-size: 1.2rem;
 }
-
