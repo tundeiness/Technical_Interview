@@ -433,11 +433,6 @@ button {
     margin-top: 1.79rem !important;
   }
 
-  .cta-desktop {
-    padding: 0.25rem 0;
-    border-radius: 1rem;
-  }
-
   #landing_section {
     padding-top: 18rem;
     padding-bottom: 18rem;
@@ -448,8 +443,8 @@ button {
     color: #fff;
     font-size: 0.8rem;
     border: 0 !important;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
   }
 
   .foreword {
@@ -460,8 +455,8 @@ button {
   }
 
   .ele {
-      top: 15%;
-      left: 15px;
+    top: 15%;
+    left: 15px;
   }
 
   .consulting,
@@ -555,6 +550,8 @@ button {
 
   .copyright {
     margin-top: 0 !important;
+    font-size: 0.9rem;
+    color: #fff;
   }
 
   .copyright > p {
@@ -564,12 +561,6 @@ button {
   div#footer > div {
     padding: 3rem 0 !important;
   }
-
-  .copyright {
-    font-size: 0.9rem;
-    color: #fff;
-  }
-
 }
 
 .nav-link:hover {
