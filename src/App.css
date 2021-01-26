@@ -125,7 +125,6 @@ button {
 
 /* Small devices (tablets, 320px and below) */
 @media screen and (min-width: 320px) {
- 
   .brand {
     font-size: 0.8rem !important;
     margin: 1.5rem 1rem !important;
@@ -182,10 +181,10 @@ button {
     left: 15px;
   }
 
-#landing_section {
-  padding-top: 13rem;
-  padding-bottom: 22rem;
-}
+  #landing_section {
+    padding-top: 13rem;
+    padding-bottom: 22rem;
+  }
 
   .foreword {
     font-size: 1.7rem;
@@ -331,12 +330,12 @@ button {
     color: #fff;
     font-size: 0.8rem;
     border: 0 !important;
-    padding-left: 1rem!important;
-    padding-right: 1rem!important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
 
   .cta_wrapper {
-    margin-top: 1.3rem!important;
+    margin-top: 1.3rem !important;
   }
 
   .cta-desktop {
@@ -375,7 +374,7 @@ button {
     width: 50%;
   }
 
-  .talk-bubble{
+  .talk-bubble {
     width: 90% !important;
     margin: 0 auto !important;
   }
@@ -399,11 +398,9 @@ button {
   div#footer > div {
     padding: 3rem 0 !important;
   }
-
- }
+}
 
 @media screen and (min-width: 992px) and (max-width: 1400px) {
- 
   .brand {
     font-size: 1rem !important;
     font-weight: bold;
@@ -435,7 +432,7 @@ button {
   }
 
   .cta_wrapper {
-    margin-top: 1.79rem!important;
+    margin-top: 1.79rem !important;
   }
 
   .cta-desktop {
@@ -525,7 +522,7 @@ button {
     width: 30%;
   }
 
-  .talk-bubble{
+  .talk-bubble {
     width: 90% !important;
     margin: 0 auto !important;
   }
@@ -550,7 +547,7 @@ button {
     border-radius: 2rem !important;
     color: #fff;
     font-weight: 500 !important;
-    font-size: 0.9rem!important;
+    font-size: 0.9rem !important;
     border: 0 !important;
   }
 
@@ -684,10 +681,6 @@ button {
   margin-bottom: 4rem;
 }
 
-.contact_heading {
-  text-transform: capitalize;
-}
-
 .btn_wrapper {
   margin-top: 3rem;
   margin-bottom: 8rem;
@@ -722,7 +715,7 @@ button {
 }
 
 #contact_section > .row {
-  background:linear-gradient(to bottom, rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
     url("https://user-images.githubusercontent.com/25479050/103905631-24402c00-50ff-11eb-8ad5-95fbefb64065.jpg");
   background-color: #000;
   opacity: 0.75;
@@ -733,6 +726,7 @@ button {
 
 .contact_heading {
   color: #fff;
+  text-transform: capitalize;
 }
 
 .contact_subheading {
