@@ -140,8 +140,8 @@ button {
     padding-left: 0 !important;
   }
 
-  .cta-mobile  {
-    padding-top: 0.8rem; 
+  .cta-mobile {
+    padding-top: 0.8rem;
     margin: 0.7rem 0;
   }
 
@@ -191,7 +191,6 @@ button {
     font-size: 1.7rem;
     font-weight: bold;
     text-align: center;
-    
   }
 
   .advert_statement_h {
@@ -333,15 +332,13 @@ button {
     border: 0 !important;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 1rem;
   }
 
   .cta_wrapper {
     margin-top: 1.3rem !important;
-  }
-
-  .cta-desktop {
-    padding: 0.25rem 0;
-    border-radius: 1rem;
   }
 
   .sub-container {
@@ -356,8 +353,8 @@ button {
     color: #666;
   }
 
-  .consulting_wrapper span, 
-  .cogs_wrapper span, 
+  .consulting_wrapper span,
+  .cogs_wrapper span,
   .folder_wrapper span {
     font-size: 0.8rem;
     padding-bottom: 1.5rem;
@@ -367,8 +364,8 @@ button {
   }
 
   .ele {
-    top: 25% ;
-    left: 15px ;
+    top: 25%;
+    left: 15px;
   }
 
   .content-wrapper {
@@ -507,7 +504,6 @@ button {
     font-size: 1rem;
     text-align: left;
     line-height: 1.8;
-    white-space: wrap;
   }
 
   .advert_statement_h {
@@ -554,7 +550,7 @@ button {
 
   .socials_text_wrapper {
     color: #fff !important;
-    font-size: 0 !important
+    font-size: 0 !important;
   }
 
   .copyright {
@@ -616,6 +612,7 @@ button {
   border-radius: 1rem;
   box-shadow: 0 8px 6px -6px black;
 }
+
 .border {
   border: 8px solid #666;
 }
@@ -637,6 +634,7 @@ button {
   bottom: -40px;
   border: 20px solid;
 }
+
 .tri-right.btm-right:after {
   content: " ";
   position: absolute;
@@ -717,8 +715,8 @@ button {
 
 #contact_section > .row {
   background: 
-  linear-gradient(to bottom, rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
-    url("https://user-images.githubusercontent.com/25479050/103905631-24402c00-50ff-11eb-8ad5-95fbefb64065.jpg");
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+  url("https://user-images.githubusercontent.com/25479050/103905631-24402c00-50ff-11eb-8ad5-95fbefb64065.jpg");
   background-color: #000;
   opacity: 0.75;
   background-position: center center;
